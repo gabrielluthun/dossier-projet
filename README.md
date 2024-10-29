@@ -14,7 +14,7 @@
     - Objectifs
     - Contraintes et opportunités
     - Exigences fonctionnelles 
-    
+
 - Gestion de projet
     - Jira
     - Méthodologie du projet
