@@ -1,59 +1,12 @@
-# dossier-projet
+## Introduction
 
-- Introduction
-    - Objectif du dossier
-    - Liste des compétences
+L'objectif de ce dossier de projet est de démontrer une maîtrise des compétences nécessaires pour obtenir le titre professionnel "Concepteur et Développeur d'Applications". 
 
-- Présentation de l'entreprise et du service
-    - Présentation de l'entreprise
-    - Présentation du service
-    
+## Table des matières
 
-- Expression des besoins du projet
-    - Contexte et enjeux
-    - Objectifs
-    - Contraintes et opportunités
-    - Exigences fonctionnelles 
+1. [Liste des compétences du nouveau référentiel couvertes par le projet](#compétences-du-nouveau-référentiel-couvertes-par-le-projet)
 
-- Gestion de projet
-    - Jira
-    - Méthodologie du projet
-    - Planning et suivi 
 
-- Spécifications fonctionnelles
-    - Contraintes du projet
-    - Livrables
-    - Architecture logicielle 
-    - Maquettes
-    - Merise
-    - Use-case
-    - UML
-    - RBAC
+### Compétences du nouveau référentiel couvertes par le projet
 
-- Spécifications techniques
-
-- Extraits de code
-    - Captures d'écran d'interfaces utilisateur
-    - Composants métier
-    - Composants d'accès aux données
-    - Autres composants
-
-- Présentation d'éléments de sécurité de l'application
-    - Défense en profondeur
-    - Réduction de la surface d'attaque
-    - Politique de moindre privilège
-    - RGPD
-
-- Présentation du plan de tests
-    - Tests unitaires
-    - Tests d'intégration 
-    - Tests end to end
-    
-- Présentation d'un jeu d'essai
-
-- Veille
-    - Vulnérabilités de sécurité rencontrées
-    - Failles corrigées
-    - Sources
-
-- Annexes
+![Référentiel Compétences CDA 2023](image.png)
