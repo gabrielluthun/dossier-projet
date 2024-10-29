@@ -9,4 +9,4 @@ L'objectif de ce dossier de projet est de démontrer une maîtrise des compéten
 
 ### Compétences du nouveau référentiel couvertes par le projet
 
-![Référentiel Compétences CDA 2023](image.png)
+![Compétences du nouveau référentiel couvertes par le projet](assets/referentiel-competences.png)
