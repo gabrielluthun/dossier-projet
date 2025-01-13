@@ -1,42 +1,54 @@
 ## Introduction
-
-L'objectif de ce dossier de projet est de démontrer une maîtrise des compétences nécessaires pour obtenir le titre professionnel "Concepteur et Développeur d'Applications". 
+Ce dossier de projet démontre les compétences acquises pour l'obtention du titre professionnel "Concepteur et Développeur d'Applications". Il présente l'ensemble du processus de conception et de développement d'une application.
 
 ## Table des matières
-
-1. [Liste des compétences du nouveau référentiel couvertes par le projet](#compétences-du-nouveau-référentiel-couvertes-par-le-projet)
-2. Présentation
+1. **Présentation**
    - [Présentation de l'Entreprise](presentation/presentation-entreprise.md)
    - [Présentation du Service](presentation/presentation-service.md)
-   - [Se Présenter](presentation/se-presenter.md)
-3. Outils
-   - [Gestion de Projet](outils/gestion-de-projet/README.md)
-   - [Outils Utilisés](outils/outils-utilises.md)
-4. Conception
-   - Diagrammes
-      - BDD
-         - [Modèle Conceptuel de Données](/conception/bdd/MCD.png)
-         - [Modèle Logique de Données](/conception/bdd/MLD.png)
-        - [Diagramme de Classe](conception/diagramme-de-classe.md)
-        - [Diagramme de Séquence](conception/diagramme-de-sequence.md)
-   - [Maquettes et Prototypes](conception/maquettes-et-prototypes/)
+   - [Présentation personnelle](presentation/se-presenter.md) *(à venir)*
+
+2. **Expression des Besoins**
+   - [Contexte et Enjeux](expression-des-besoins/contexte-et-enjeux.md)
+   - [Objectifs](expression-des-besoins/objectifs.md)
+   - [Contraintes et Opportunités](expression-des-besoins/contraintes-opportunites.md)
+   - [Exigences Fonctionnelles](expression-des-besoins/exigences-fonctionnelles.md)
+
+3. **Spécifications**
+   - Spécifications Fonctionnelles
+      - [Livrables attendus](specifications-fonctionnelles/livrables-attendus.md)
+   - Spécifications Techniques
+      - [Choix de la stack technique](/specifications-techniques/front-end/choix-stack.md) *(à venir)*
+
+4. **Conception**
    - [Dictionnaire de Données](conception/dictionnaire-de-donnees.md)
-5. Déploiement
-   - [Maintenance Applicative](deploiement/maintenance-applicative/maintenance-applicative.md)
-   - [Procédures de Déploiement](deploiement/procedures-deploiement/procedures-deploiement.md)
-6. Développement back-end
-   - [Documentation API](developpement/back/documentation-api/documentation-api.md)
-   - [Documentation DevOps](developpement/devops/documentation-devops/documentation-devops.md)
-7. Front-end
-   - [Structure du Code Source](developpement/structure-code-source/structure.md)
-8. Spécifications Fonctionnelles
-      - [Contexte et enjeux](/specifications-fonctionnelles/expression-des-besoins/contexte-et-enjeux.md)
-      - [Contexte et opportunités](/specifications-fonctionnelles/expression-des-besoins/contraintes-opportunites.md)
-      - [Exigences fonctionnelles](/specifications-fonctionnelles/expression-des-besoins/exigences-fonctionnelles.md)
-      - [Objectifs](/specifications-fonctionnelles/expression-des-besoins/objectifs.md)
-9. [Veille](#veille)
-   - [Bilan de Veille](veille/bilan-veille.md)
+   - Base de Données
+      - [Modèle Conceptuel de Données](conception/bdd/MCD.png)
+      - [Modèle Logique de Données](conception/bdd/MLD.png)
+   - Diagrammes
+      - [Diagramme de Classe](conception/diagrammes/diagramme-de-classe.md) *(à venir)*
+      - [Diagramme de Séquence](conception/diagrammes/diagramme-de-sequence.md) *(à venir)*
+   - [Maquettes et Prototypes](conception/maquettes-et-prototypes/) *(à venir)*
 
-### Compétences du nouveau référentiel couvertes par le projet
+5. **Développement**
+   - Back-end
+      - [Documentation API](developpement/back/documentation-api/documentation-api.md) *(à venir)*
+   - Front-end
+      - [Structure du Code Source](developpement/structure-code-source/structure.md) *(à venir)*
+   - DevOps
+      - [Documentation DevOps](developpement/devops/documentation-devops/documentation-devops.md) *(à venir)*
 
+6. **Déploiement**
+   - [Procédures de Déploiement](deploiement/procedures-deploiement/procedures-deploiement.md) *(à venir)*
+   - [Maintenance Applicative](deploiement/maintenance-applicative/maintenance-applicative.md) *(à venir)*
+
+7. **Outils**
+   - [Gestion de Projet](outils/gestion-de-projet/README.md) *(à venir)*
+   - [Outils Utilisés](outils/outils-utilises.md) *(à venir)*
+
+8. **Veille technologique**
+   - [Bilan de Veille](veille/bilan-veille.md) *(à venir)*
+   - [Mes réussites et mes difficultés](veille/reussites-difficultes.md) *(à venir)*
+   - [Si c'était à refaire ?](veille/si-cetait-a-refaire.md) *(à venir)*
+
+## Liste des compétences du référentiel couvertes par le projet
 ![Compétences du nouveau référentiel couvertes par le projet](assets/referentiel-competences.png)
