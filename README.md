@@ -10,7 +10,7 @@ Ce dossier de projet démontre les compétences acquises pour l'obtention du tit
 
 2. **Présentation**
    - [Présentation de l'entreprise](doc/2-presentation/entreprise.md)
-   - [Présentation du service](doc/2-presentation/service.md)
+   - [Présentation personnelle](doc/2-presentation/personnelle.md) *(à venir)*
 
 3. **Expression des besoins**
    - [Contexte et enjeux](doc/3-expression-besoins/contexte-enjeux.md)
