@@ -28,18 +28,13 @@ Ce dossier de projet démontre les compétences acquises pour l'obtention du tit
    - [Livrables attendus](doc/5-specifications-fonctionnelles/livrables.md)
    - [Architecture logicielle](doc/5-specifications-fonctionnelles/architecture.md) *(à venir)*
    - [Maquettes et enchaînement des maquettes](doc/5-specifications-fonctionnelles/maquettes/) *(à venir)*
-   - [Modélisation des données](doc/5-specifications-fonctionnelles/modelisation/)
-      - [Modèle conceptuel de données](/doc/5-specifications-fonctionnelles/modelisation/MCD.png)
-      - [Modèle logique de données](/doc/5-specifications-fonctionnelles/modelisation/MLD.png)
+   - [Modélisation des données](/doc/5-specifications-fonctionnelles/modelisation/bdd/)
+      - [Modèle conceptuel de données](/doc/5-specifications-fonctionnelles/modelisation/bdd/MCD.png)
+      - [Modèle logique de données](/doc/5-specifications-fonctionnelles/modelisation/bdd/MLD.png)
 
    - [Script SQL](doc/5-specifications-fonctionnelles/modelisation/script.sql) *(à venir)*
    - [Use-case](doc/5-specifications-fonctionnelles/modelisation/uml/use-case/)
-      - [Cas d'utilisation - Commentaire](/doc/5-specifications-fonctionnelles/modelisation/uml/use-case/Use-case-Commentaire-CRUD.png)
-      - [Cas d'utilisation - Ressource](/doc/5-specifications-fonctionnelles/modelisation/uml/use-case/Use-case-ressource-CRUD-diagram.png)
-      - [Cas d'utilisation - Signalement](/doc/5-specifications-fonctionnelles/modelisation/uml/use-case/Use-case-signalement.png)
-      - [Cas d'utilisation - Vote](/doc/5-specifications-fonctionnelles/modelisation/uml/use-case/Use-case-vote-CRUD-diagram.png)
    - [Diagramme de séquence](/doc/5-specifications-fonctionnelles/modelisation/uml/sequence/)
-      - [Diagramme de séquence - Ressource](/doc/5-specifications-fonctionnelles/modelisation/uml/sequence/resource-diagram-sequence.png)
    - [RBAC](/doc/5-specifications-fonctionnelles/rbac.md) 
 
 6. **Spécifications techniques**
