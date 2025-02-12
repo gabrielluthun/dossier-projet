@@ -33,13 +33,18 @@ Ce dossier de projet démontre les compétences acquises pour l'obtention du tit
       - [Modèle logique de données](/doc/5-specifications-fonctionnelles/modelisation/MLD.png)
 
    - [Script SQL](doc/5-specifications-fonctionnelles/modelisation/script.sql) *(à venir)*
-   - [Use-case](doc/5-specifications-fonctionnelles/use-case.md)
-   - [Diagrammes de séquence](doc/5-specifications-fonctionnelles/sequence.md) *(à venir)*
-   - [RBAC](doc/5-specifications-fonctionnelles/rbac.md) *(à venir)*
+   - [Use-case](doc/5-specifications-fonctionnelles/modelisation/uml/use-case/)
+      - [Cas d'utilisation - Commentaire](/doc/5-specifications-fonctionnelles/modelisation/uml/use-case/Use-case-Commentaire-CRUD.png)
+      - [Cas d'utilisation - Ressource](/doc/5-specifications-fonctionnelles/modelisation/uml/use-case/Use-case-ressource-CRUD-diagram.png)
+      - [Cas d'utilisation - Signalement](/doc/5-specifications-fonctionnelles/modelisation/uml/use-case/Use-case-signalement.png)
+      - [Cas d'utilisation - Vote](/doc/5-specifications-fonctionnelles/modelisation/uml/use-case/Use-case-vote-CRUD-diagram.png)
+   - [Diagramme de séquence](/doc/5-specifications-fonctionnelles/modelisation/uml/sequence/)
+      - [Diagramme de séquence - Ressource](/doc/5-specifications-fonctionnelles/modelisation/uml/sequence/resource-diagram-sequence.png)
+   - [RBAC](/doc/5-specifications-fonctionnelles/rbac.md) 
 
 6. **Spécifications techniques**
    - [Dictionnaire de données](doc/6-specifications-techniques/dictionnaire.md)
-   - [Choix techniques (stack API & front)](doc/6-specifications-techniques/stack.md) *(à venir)*
+   - [Choix techniques (stack API & front)](doc/6-specifications-techniques/stack.md) 
    - [Diagramme d'activité](doc/6-specifications-techniques/diagrammes/activite.md) *(à venir)*
    - [Diagramme de classe](doc/6-specifications-techniques/diagrammes/classe.md) *(à venir)*
    - [Stratégie de sécurisation](doc/6-specifications-techniques/securisation.md) *(à venir)*
