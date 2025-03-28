@@ -1,95 +1,116 @@
-# Exigences du Bot Discord Simplon HDF
+# Exigences fonctionnelles
 
-## Introduction
+## Site internet et visibilité
 
-Notre objectif ? Faciliter la communication, le partage de ressources et l'engagement au sein de cette communauté d'apprenants, de formateurs et d'anciens élèves. Grâce à ce bot, nous souhaitons créer un espace dynamique, interactif et convivial où chacun peut contribuer et s'épanouir.
+- L'association A.I.R doit avoir un site internet vitrine présentant ses activités, ses établissements et ses valeurs.
+- La plateforme doit permettre aux administrateurs de l'association de mettre à jour facilement le contenu du site.
+- Le site vitrine doit permettre aux visiteurs de trouver facilement les coordonnées et les horaires des différents établissements.
+- Le site vitrine doit permettre de distinguer l'association A.I.R des autres structures utilisant le même acronyme.
+- Le site vitrine doit permettre à la boutique Nouvoulook d'avoir une section dédiée sur le site.
 
-Découvrons ensemble les **exigences** qui feront de ce bot un outil indispensable pour tous ! 🚀
+## Questionnaires de satisfaction numériques
 
----
+- La plateforme doit permettre aux équipes de créer et personnaliser des questionnaires de satisfaction numériques.
+- La plateforme doit permettre d'uniformiser les questionnaires entre les différents établissements (CADA, CPH, etc.).
+- La plateforme doit permettre aux bénéficiaires de remplir les questionnaires sur un support numérique.
+- La plateforme doit permettre de collecter automatiquement les réponses des questionnaires.
+- La plateforme doit permettre de générer des statistiques à partir des réponses aux questionnaires.
+- La plateforme doit permettre de filtrer les résultats des questionnaires par établissement, par période ou par type de public.
+- La plateforme doit permettre d'exporter les données des questionnaires dans différents formats pour les audits.
 
-## Exigences Fonctionnelles ⚙️
+## Suivi des apprenants FLE
 
-### 1. Gestion des Ressources 📚
+- La plateforme doit permettre aux formateurs de suivre le parcours des apprenants en FLE.
+- La plateforme doit permettre de centraliser les informations sur chaque apprenant en un seul endroit.
+- La plateforme doit permettre d'évaluer et d'enregistrer les progrès des apprenants.
+- La plateforme doit permettre de générer les documents nécessaires aux exigences de QUALIOPI.
+- La plateforme doit permettre aux formateurs de consulter l'historique des formations suivies par chaque apprenant.
+- La plateforme doit permettre de planifier les cours et d'en informer les apprenants.
+- La plateforme doit permettre d'identifier les apprenants en difficulté pour un accompagnement personnalisé.
 
-| ID  | Exigence                 | Description                                                                                                                                                                                                                                                                                 |
-|-----|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| F1  | **Partage de Ressources**    | - Les utilisateurs peuvent partager des liens, articles ou documents utiles dans des canaux dédiés.<br>- Permettre le partage de ressources à travers différentes promotions et formations, accessibles à tous, y compris les anciens apprenants.                                                                            |
-| F2  | **Classification par Tags**  | - Utiliser des tags pour catégoriser les ressources (ex : #développement-web, #cybersécurité, #data).<br>- Possibilité d'attribuer plusieurs tags pour une classification précise.                                                                                                       |
-| F3  | **Recherche de Ressources**  | - Offrir des commandes ou interfaces pour rechercher des ressources par tags ou mots-clés.<br>- Filtrer les résultats par pertinence ou popularité.                                                                                                                                      |
-| F4  | **Gestion des Doublons**     | - Détecter automatiquement les ressources en doublon (mêmes liens ou contenus similaires).<br>- Si un doublon est détecté, conserver la publication avec la description la plus complète ou la meilleure notation.<br>- Transférer les points du post supprimé vers la publication conservée. |
+## États des lieux numériques
 
-### 2. Conformité Réglementaire et Sécurité 🔒
+- La plateforme doit permettre aux intervenants sociaux de réaliser des états des lieux numériques d'entrée et de sortie.
+- La plateforme doit permettre de prendre et stocker des photos associées aux logements.
+- La plateforme doit permettre de comparer facilement les états des lieux d'entrée et de sortie.
+- La plateforme doit permettre aux bénéficiaires de signer électroniquement les états des lieux.
+- La plateforme doit permettre d'archiver et de consulter facilement les anciens états des lieux.
+- La plateforme doit permettre de générer des alertes en cas de dégradations importantes.
+- La plateforme doit permettre de suivre l'historique des interventions de maintenance dans les logements.
 
-| ID   | Exigence                     | Description                                                                                                                                                                                                                                                 |
-|------|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| F5   | **Conformité au RGPD**           | Respecter le Règlement Général sur la Protection des Données (RGPD), garantissant à chaque utilisateur le contrôle de ses données personnelles.                                                                                                            |
-| F6   | **Sécurité des Données**         | Assurer la sécurité des données collectées, en évitant tout accès non autorisé ou fuite d'informations.                                                                                                                                                    |
-| F7   | **Modération Automatisée**       | Intégrer des mécanismes pour détecter et supprimer les contenus inappropriés (liens vers des sites inappropriés, contenus offensants), tout en permettant aux utilisateurs de signaler les messages problématiques.                                       |
+## Suivi administratif et logistique
 
-### 3. Performance et Fiabilité ⚙️
+- La plateforme doit permettre de gérer un agenda partagé pour les rendez-vous des bénéficiaires.
+- La plateforme doit permettre d'envoyer des notifications automatiques de rappel de rendez-vous.
+- La plateforme doit permettre de notifier les bénéficiaires de la réception de courriers à leur nom.
+- La plateforme doit permettre de suivre les présences aux activités et rendez-vous obligatoires.
+- La plateforme doit permettre aux équipes de consulter facilement le dossier administratif de chaque bénéficiaire.
+- La plateforme doit permettre de générer des rapports pour les organismes de tutelle (OFII, préfecture).
+- La plateforme doit permettre de suivre les démarches administratives en cours pour chaque bénéficiaire.
 
-| ID   | Exigence        | Description                                                                                                                                                                  |
-|------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| F8   | **Disponibilité**   | Le bot doit être opérationnel 24h/24 et 7j/7 pour une expérience utilisateur optimale.                                                                                    |
-| F9   | **Scalabilité**     | Capable de gérer une augmentation du nombre d'utilisateurs sans perdre en performance.                                                                                     |
-| F10  | **Robustesse**      | Gérer les erreurs et exceptions sans interruption du service.                                                                                                             |
+## Gestion de la boutique Nouvoulook
 
-### 4. Expérience Utilisateur 🎨
+- La boutique en ligne doit permettre l'affichage des ventes exceptionnelles et événements de la boutique Nouvoulook.
+- La boutique en ligne permettre aux visiteurs de comprendre le fonctionnement du bénévolat et des dons pour la boutique.
+- La boutique en ligne doit permettre des exemples des dons qu'on peut retrouver sur place.
+- La boutique en ligne doit permettre d'enregistrer les différentes catégories de dons pour avoir une idée de ce qui peut avoir sur place.
+- La boutique en ligne doit permettre d'appliquer automatiquement les tarifs selon le profil de l'acheteur (Marcquois, bénéficiaires de l'association).
+- La boutique en ligne doit permettre de gérer le planning des bénévoles de la boutique.
+- La boutique en ligne doit permettre de communiquer les horaires spécifiques pour les dons.
+- La boutique en ligne doit permettre de suivre les ventes et de générer des statistiques.
+- La boutique en ligne doit permettre de gérer les ventes exceptionnelles et d'en faire la promotion.
 
-| ID   | Exigence            | Description                                                                                                                                                                                  |
-|------|---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| F11  | **Interface Intuitive** | Proposer des interactions simples et conviviales, privilégiant les boutons, menus et réactions plutôt que des commandes complexes.                                                         |
-| F12  | **Accessibilité**       | Accessible à tous les utilisateurs, y compris ceux ayant des limitations techniques ou des handicaps.                                                                                      |
-| F13  | **Multilinguisme**      | Prévoir la possibilité de gérer plusieurs langues si nécessaire, bien que la communauté soit principalement francophone.                                                                  |
+## Démarche qualité
 
-### 5. Gamification et Engagement 🏆
+- La plateforme doit permettre au service qualité de centraliser les documents administratifs.
+- La plateforme doit permettre de suivre les indicateurs de qualité en temps réel.
+- La plateforme doit permettre de partager les bonnes pratiques entre les différents établissements.
 
-| ID  | Exigence                      | Description                                                                                                                                                                                                                                            |
-|-----|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| F14  | **Système de Notation**           | - Les utilisateurs peuvent évaluer les ressources via des réactions (👍 ou 👎).<br>- Le nombre de "likes" influence la réputation de l'utilisateur et la visibilité de la ressource.                                                                 |
-| F15  | **Système de Points et Récompenses** | - Accumuler des points en fonction des "likes" reçus.<br>- Définir des paliers de niveaux avec des récompenses spécifiques (rôles spéciaux, accès exclusifs, badges, etc.).<br>- Notifier les utilisateurs lors de leur progression.                   |
-| F16  | **Classements et Statistiques**      | - Afficher les classements des utilisateurs les plus actifs ou les mieux notés.<br>- Fournir des statistiques sur les ressources les plus populaires.                                                                                                  |
+# Exigences non fonctionnelles
 
-### 6. Modération et Sécurité 🛡️
+## Sécurité
 
-| ID   | Exigence                           | Description                                                                                                                                                                                                                                                                                                                                                                  |
-|------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| F17  | **Détection de Contenu Inapproprié**   | - Surveiller les messages pour détecter et supprimer automatiquement les contenus inappropriés (spam, liens malveillants, contenu offensant).                                                                                                                                                                                                                               |
-| F18  | **Surveillance des Modifications de Messages** | - Détecter les modifications apportées aux messages par les utilisateurs.<br>- Si un message modifié contient du contenu inapproprié (ex : liens inappropriés), prendre les mesures appropriées (suppression, notification des modérateurs, etc.).<br>- Prévenir les abus tels que la modification d'une ressource acceptable en contenu interdit. |
-| F19  | **Signalement par les Utilisateurs**   | - Permettre aux utilisateurs de signaler des messages problématiques via une action dédiée (ex : `!report`).<br>- Notifier les modérateurs pour une action rapide.                                                                                              |
-| F20  | **Gestion des Sanctions**              | - Appliquer des sanctions en cas de non-respect des règles (avertissements, mute, bannissement temporaire ou permanent).                                                                                                                                                                                                                |
-| F21  | **Affichage des Règles**               | - Le bot doit pouvoir afficher les règles de bonne conduite sur demande ou lors de l'arrivée de nouveaux membres.                                                                                                                                                                                                                       |
+- En accord avec le RGPD, la plateforme doit assurer la protection des données personnelles des bénéficiaires.
+- En accord avec le RGPD, une attention particulière doit être portée aux données des femmes isolées.
+- La plateforme doit implémenter différents niveaux d'accès selon les rôles des utilisateurs (administrateur, intervenant social, formateur, bénévole).
+- La plateforme doit permettre la journalisation des événements survenus au sein de ce dernier.
+- La plateforme doit garantir la confidentialité des informations sensibles liées aux demandeurs d'asile.
+- La plateforme doit permettre la suppression des données conformément aux durées légales de conservation.
+- La plateforme doit être conforme aux exigences de sécurité imposées par les autorités de tutelle.
 
-### 7. Interaction Utilisateur 💬
+## Performance
 
-| ID  | Exigence            | Description                                                                                                                                                                                                                             |
-|-----|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| F22 | **Interface Intuitive** | - Utiliser des boutons, menus interactifs et réactions pour faciliter l'interaction avec le bot.<br>- Éviter les commandes complexes, favoriser les interactions simples et guidées.                                                 |
+- La plateforme doit être réactive et répondre rapidement aux actions des utilisateurs.
+- La plateforme doit pouvoir gérer simultanément plusieurs utilisateurs répartis sur les différents sites.
+- La plateforme doit assurer la sauvegarde régulière des données.
+- La plateforme doit pouvoir gérer une base de données croissante sans dégradation des performances.
+- La plateforme doit être optimisée pour fonctionner sur l'infrastructure existante de l'association.
 
-### 8. Administration 🔑
+## Ergonomie
 
-| ID  | Exigence                             | Description                                                                                                                                                                                                                                     |
-|-----|--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| F23 | **Commandes Avancées pour les Administrateurs** | - Fournir des commandes spécifiques pour gérer les utilisateurs, les ressources et configurer le bot.                                                                                                                                             |
-| F24 | **Personnalisation des Paramètres**      | - Permettre la personnalisation des paramètres via le panel d'administration ou des commandes (niveaux, récompenses, messages automatiques).                                                                                                       |
-| F25 | **Gestion des Rôles et Permissions**     | - Contrôler l'attribution automatique des rôles en fonction des niveaux ou actions des utilisateurs.<br>- Configurer les permissions associées à chaque rôle.                                                                                       |
-| F26 | **Logs d'Activité**                      | - Accéder aux logs détaillés pour surveiller les interactions et identifier les problèmes éventuels.                                                                                                                                             |
+- La plateforme doit offrir une interface intuitive adaptée à des utilisateurs ayant des compétences numériques variables.
+- La plateforme doit proposer des interfaces simplifiées pour les bénévoles moins à l'aise avec les outils numériques.
+- La plateforme doit proposer des messages d'erreur clairs et des solutions pour y remédier.
+- La plateforme doit être utilisable sur différents supports (ordinateurs, tablettes).
+- La plateforme doit proposer des parcours utilisateurs optimisés pour réduire le temps d'apprentissage.
+- La plateforme doit inclure une aide contextuelle pour assister les utilisateurs dans leurs tâches.
+- La plateforme doit respecter les conventions d'interface utilisateur pour faciliter la prise en main.
 
-### 9. Gestion Multicanale 🌐
+## Disponibilité
 
-| ID  | Exigence                        | Description                                                                                                                                                                                                                             |
-|-----|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| F27 | **Support de Multiples Canaux**     | - Le bot doit fonctionner sur plusieurs canaux dédiés à différentes promotions, formations ou thématiques.                                                                                                                              |
-| F28 | **Accès pour les Anciens Apprenants** | - Les anciens apprenants doivent pouvoir accéder aux ressources et continuer à participer à la communauté.                                                                                                                               |
-| F29 | **Notifications Transversales**     | - Possibilité d'envoyer des annonces ou notifications à tous les canaux ou groupes spécifiques.                                                                                                                                          |
+- La plateforme doit être disponible en permanence, sauf pendant les périodes de maintenance planifiées.
+- La plateforme doit notifier les administrateurs en cas de défaillance technique.
 
-## Exigences Non Fonctionnelles 🌟
+## Accessibilité et multilinguisme
 
-### 1. Maintenabilité et Évolutivité 🔧
+- La plateforme doit proposer des interfaces en plusieurs langues pour s'adapter aux publics non francophones.
+- La plateforme doit permettre l'usage de pictogrammes pour faciliter la compréhension.
+- La plateforme doit permettre une traduction facile vers de nouvelles langues.
+- La plateforme doit proposer des alternatives aux interactions textuelles (audio, vidéo).
 
-| ID    | Exigence                     | Description                                                                                                                                                                                         |
-|-------|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| NF1  | **Code Propre et Documenté**     | Un code bien structuré et commenté pour faciliter la maintenance et les futures évolutions.                                                                                                          |
-| NF2  | **Architecture Modulaire**       | Une conception modulaire permettant d'ajouter ou modifier des fonctionnalités sans impacter le reste du système.                                                                                     |
-| NF3  | **Choix Technologique Approprié** | Justifier les choix technologiques avec une comparaison objective des options disponibles.                                                                                                           |
+## Transition et évolution
+
+- La plateforme doit pouvoir évoluer facilement pour intégrer de nouvelles fonctionnalités.
+- La plateforme doit permettre l'exportation des données (csv, pdf, ...).
+- Nous devons prévoir des formations adaptées pour les différents profils d'utilisateurs consultable aussi sur la plateforme.
+- La plateforme doit permettre une maintenance aisée malgré l'absence de personnel technique qualifié en interne.
