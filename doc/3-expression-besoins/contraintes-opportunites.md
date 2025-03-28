@@ -1,61 +1,61 @@
-# Contraintes et opportunités
+# 🔍 Opportunités
 
-## Les contraintes
+L’association **A.I.R** dispose d’un fort potentiel de développement en ce qui concerne l’évolution du futur **logiciel interne**. Plusieurs axes d’amélioration peuvent être envisagés afin d’optimiser les processus, de faciliter le travail des équipes et de mieux répondre aux besoins spécifiques des différents services.
 
-### Techniques
+## 🛠️ Renforcement des fonctionnalités existantes
 
-**Nécessité de créer un compte Discord :** Chaque utilisateur doit créer un compte sur la plateforme Discord pour accéder aux canaux de communication, ce qui peut constituer un obstacle pour certains, notamment ceux qui ne sont pas à l'aise avec les nouvelles technologies.
+Une première piste d’amélioration concerne le **renforcement des fonctionnalités déjà présentes**, en les rendant :
+- Plus ergonomiques,
+- Plus intuitives,
+- Mieux adaptées aux usages spécifiques de chaque pôle.
 
-**Limitation de l'API Discord :** L'API de Discord impose une limite de 50 appels par seconde, ce qui peut restreindre la capacité à gérer des interactions massives ou à développer des fonctionnalités en temps réel si l'activité devient trop intense.
+### Exemple concret : harmonisation des questionnaires de satisfaction
 
-**Fonctionnalités avancées (commandes « /command ») :** Certaines fonctions de Discord sont techniques et nécessitent un développement spécifique, ce qui peut ralentir l'implémentation et augmenter la complexité pour les utilisateurs novices.
+Actuellement, les **CPH de Marcq et le CADA de Tourcoing** disposent chacun de leurs propres **questionnaires de satisfaction** (à l’entrée et à la sortie des demandeurs d’asile). Le souci principal réside dans le **système de notation**, qui diffère d’un centre à l’autre.
 
-**Discord n'est pas open-source :** La nature propriétaire de Discord limite la personnalisation de l'outil et peut poser des problèmes d'intégration avec d'autres systèmes ou d'adaptation aux besoins spécifiques de Simplon.
+Il serait pertinent d’intégrer à l’avenir un **système unifié** dans le logiciel, permettant :
+- D’harmoniser les données collectées,
+- De centraliser l’analyse des retours,
+- D'améliorer la lisibilité des statistiques qualité.
 
-### Utilisation et formation
+## ➕ Ajout de nouvelles fonctionnalités
 
-**Familiarisation avec Discord :** Certains utilisateurs peuvent ne pas être habitués à l'environnement de Discord. Il est essentiel que l'interface soit intuitive et que des ressources d'apprentissage soient disponibles pour faciliter l'adoption.
+### 🗂️ Optimisation de la gestion documentaire pour le service qualité
 
-**Expliquer le fonctionnement de Discord :** Il sera nécessaire d'offrir des formations et des tutoriels pour expliquer le fonctionnement de Discord, ce qui peut prendre un temps considérable et nécessiter des ressources.
+Le **service qualité** fait face à une gestion lourde d’un grand nombre de **documents administratifs**, notamment lors des audits réguliers.
 
-**Formation du personnel :** Le personnel de Simplon doit être formé pour gérer la plateforme efficacement, afin de pouvoir aider les utilisateurs et répondre à leurs questions sans frustration.
+La responsable qualité doit en effet produire pour chaque établissement un **rapport exhaustif basé sur plus de 150 critères**. Ce processus est actuellement long et répétitif.
 
-**Risque de dépendance à Discord :** S'appuyer uniquement sur Discord pour la communication et l'organisation pourrait créer une dépendance. En cas de panne ou de problème technique, les opérations pourraient être fortement perturbées.
+### Proposition : module ou application dédiée au contrôle qualité
 
-### Accessibilité
+La création d’un **module spécifique**, voire d’une **application indépendante**, permettrait de :
+- Centraliser les documents administratifs,
+- Automatiser la saisie et la génération de rapports,
+- Assurer une homogénéité des suivis qualité,
+- Renforcer la traçabilité et la conformité réglementaire.
 
-**Accessibilité pour tous :** L'outil doit prendre en compte des besoins spécifiques tels que le daltonisme ou la dyslexie, afin de garantir que tous les utilisateurs, quel que soit leur profil, puissent interagir sans difficulté.
+Ce développement allégerait considérablement la charge administrative du service, tout en **améliorant la réactivité** et la communication entre les **établissements et le siège**.
 
-**Concept des bots :** Expliquer ce que sont les bots et leur fonctionnement est crucial pour que les utilisateurs puissent tirer parti des automatisations et des fonctionnalités avancées disponibles sur Discord.
+## 🛍️ Digitalisation de la gestion de stock pour Nouvoulook
 
-### Gestion de la communication
+L’association A.I.R gère également une **boutique solidaire**, nommée **Nouvoulook**, où des vêtements sont revendus selon un **barème social** (basé sur la situation de l’acheteur et son lieu de résidence).
 
-**Maintien d'un ton professionnel :** Le serveur Discord de Simplon doit rester un environnement professionnel. Bien que certaines antennes adoptent un ton plus décontracté, cela peut nuire à la perception de sérieux de l'organisme.
+Actuellement, la boutique **ne dispose pas de système de gestion de stock**, ce qui représente une contrainte importante pour les **employés et les bénévoles**.
 
-**Cadrage des échanges :** Il est important de bien structurer les discussions pour éviter les abus ou les dérives dans les conversations, ce qui pourrait nuire à l'image de Simplon et à la qualité des échanges.
+### Proposition : ajout d’un module de stock léger
 
-**Gestion des rôles et des autorisations :** Une bonne gestion des rôles est essentielle pour assurer un fonctionnement fluide, mais cela peut aussi poser des défis si les utilisateurs ne comprennent pas leurs permissions.
+Il serait pertinent d’envisager l’intégration d’un **système de stock simplifié** au sein du logiciel, avec pour objectif de :
+- Garder une vue d’ensemble sur les entrées/sorties de vêtements,
+- Ne **pas alourdir la charge de travail** des intervenants,
+- Optimiser l’organisation et éviter les ruptures.
 
-**Limite de conservation des promotions :** Les promotions ne sont accessibles que pendant 30 jours après leur fin, ce qui pourrait restreindre l'accès aux ressources et aux échanges pour les anciens apprenants.
+Un tel module permettrait de mieux structurer l’activité de la boutique, tout en restant fidèle à sa logique sociale et solidaire.
 
-## Les opportunités
+---
 
-### Développement et amélioration
+## ✅ En résumé, A.I.R a l’opportunité de :
 
-**Création de nouveaux bots :** Le développement de bots sur Discord permettrait d'automatiser certaines tâches et d'enrichir l'expérience des utilisateurs, comme la gestion d'événements ou la distribution d'informations.
-
-**Amélioration des bots existants :** Travailler sur l'optimisation des bots déjà en place pour les rendre plus efficaces et adaptés aux besoins des utilisateurs peut améliorer considérablement l'interaction au sein de la plateforme.
-
-**Exploration de l'open-source :** En adoptant une approche open-source, Simplon pourrait développer des solutions sur mesure, attirant d'autres organismes à utiliser ces outils et augmentant ainsi son influence au-delà de son réseau.
-
-### Expansion
-
-**Proposition à d'autres organismes :** Ce projet pourrait également être proposé à d'autres antennes de Simplon ou à des organismes de formation, favorisant des collaborations et un partage de bonnes pratiques.
-
-### Engagement communautaire
-
-**Participation à des événements :** L'organisation ou la participation à des événements (conférences, hackathons, événements Coding Games) peut renforcer la visibilité et la notoriété de Simplon, tout en créant des opportunités de networking pour les apprenants.
-
-**Développement d'un bot dédié au mentorat :** Un bot pour faciliter le mentorat pourrait offrir aux anciens apprenants la possibilité de s'impliquer et d'aider les nouveaux, favorisant un esprit de communauté et de soutien.
-
-**Demande de mentorat aux anciens apprenants :** La possibilité de solliciter les anciens pour devenir mentors permettrait d'enrichir l'expérience des nouveaux apprenants et de créer des liens entre les différentes promotions. 
+- 🔧 Moderniser et renforcer son logiciel interne existant  
+- 🧩 Créer des modules adaptés aux besoins spécifiques des pôles (qualité, accueil, boutique...)  
+- 💻 Digitaliser les processus internes pour **gagner en efficacité**  
+- 📊 Améliorer la qualité du service rendu à travers des outils centralisés, souples et adaptés
